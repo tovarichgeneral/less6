@@ -7,6 +7,5 @@ try:
     my_file.close()
     print(my_file_write)
     my_file_write.close()
-except:
+except FileNotFoundError:
     print("Error")
-
